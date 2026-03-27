@@ -8,10 +8,31 @@ This repository hosts the implementation of ViaSHAP, a novel approach that learn
 ## **Usage:**
 1. Clone the Repository: Clone this repository to your local machine using the following command:
    ```
-   git clone 
+   git clone https://github.com/Sh1v4ns/XAI_Project.git
    ```
 2. Install Dependencies: Ensure that you have the necessary dependencies installed. You can install them using `pip`:
    ```
    pip install -r requirements.txt
    ```
-3. Sample notebooks are provided
+3. We have used the MLP model for our implementation
+
+ 
+4. The XAI method used is ViaSHAP (mlpshap.py)
+
+   
+6. Dataset used is Elevators Dataset(tabular regression)
+
+   
+7. Results reproduced :
+    1. Prediction performance : RMSE / Accuracy
+        
+    2. SHAP quality metric : Cosine similarity with true Shapley values
+
+    3. Feature importance ranking :Compare important features
+  
+       
+    4. Also includes : AUC / performance and similarity to true Shapley values
+
+
+    
+     
